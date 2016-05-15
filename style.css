@@ -1,0 +1,36 @@
+a.my-brand-logo {
+    padding: 0 0 0 50px;
+}
+
+.my-navbar {
+    height:120px;
+}
+
+#logo {
+    padding: 25px 0 0 1%;
+    cursor: pointer;
+}
+
+.my-hide-on-med-and-down {
+ line-height: 120px;
+    padding:0 40px 0 0;
+}
+
+.my-menu-hover:hover {
+    background-color: rgba(201,177,111,0.4);
+}
+
+header, main, footer {
+    padding-left: 240px;
+}
+
+.my-menu-icon {
+    color: black;
+    padding: 40% 0 0 50%;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
