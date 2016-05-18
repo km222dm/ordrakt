@@ -4,8 +4,6 @@ a.my-brand-logo {
 
 .my-navbar {
     height:120px;
-    position: fixed;
-    z-index: 2;
 }
 
 #logo {
@@ -20,6 +18,7 @@ a.my-brand-logo {
 
 .my-nav-wrapper {
     width:100%;
+
 }
 
 .my-hide-on-med-and-down {
@@ -41,7 +40,7 @@ a.my-brand-logo {
     height:650px;
     /**/
     /*height: 160px;*/
-    padding:120px 0 0 0;
+    padding:0 0 0 0;
 }
 
 #background-color-layer {
@@ -50,11 +49,15 @@ a.my-brand-logo {
     height: 100%;
 }
 
-.padding-top-3 {
-    padding: 3% 0 0 0;
+.padding-welcome-text {
+    padding: 100px 0 0 0;
 }
 
 @media (max-width: 560px) {
+
+    .my-navbar {
+        height:80px;
+    }
 
     #logo {
         display: none;
@@ -62,8 +65,16 @@ a.my-brand-logo {
 
     #logo-mobile {
         display:block;
-        margin: 40px auto 0 auto;
+        margin: 20px auto 0 auto;
         cursor: pointer;
+    }
+
+    .my-button-margin {
+        margin: 15px 0 0 7%;
+    }
+
+    .padding-welcome-text {
+        padding: 3% 0 0 0;
     }
 }
 /*header, main, footer {*/
