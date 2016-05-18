@@ -37,9 +37,6 @@ a.my-brand-logo {
 #background {
     background: url(img/background.jpg) no-repeat;
     background-size:100% 100%;
-    height:650px;
-    /**/
-    /*height: 160px;*/
     padding:0 0 0 0;
 }
 
@@ -60,12 +57,13 @@ a.my-brand-logo {
     }
 
     #logo {
-        display: none;
+        height:85%;
+        padding: 25px 0 0 10%;
     }
 
     #logo-mobile {
         display:block;
-        margin: 20px auto 0 auto;
+
         cursor: pointer;
     }
 
@@ -77,18 +75,4 @@ a.my-brand-logo {
         padding: 3% 0 0 0;
     }
 }
-/*header, main, footer {*/
-    /*padding-left: 240px;*/
-/*}*/
-
-/*.my-menu-icon {*/
-    /*color: black;*/
-    /*padding: 40% 0 0 50%;*/
-/*}*/
-
-/*@media only screen and (max-width : 992px) {*/
-    /*header, main, footer {*/
-        /*padding-left: 0;*/
-    /*}*/
-/*}*/
 
