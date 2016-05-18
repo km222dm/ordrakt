@@ -12,7 +12,11 @@ a.my-brand-logo {
      padding: 25px 0 0 1%;
      cursor: pointer;
     height:82%;
- }
+}
+
+#logo-mobile {
+    display: none;
+}
 
 .my-nav-wrapper {
     width:100%;
@@ -48,6 +52,19 @@ a.my-brand-logo {
 
 .padding-top-3 {
     padding: 3% 0 0 0;
+}
+
+@media (max-width: 560px) {
+
+    #logo {
+        display: none;
+    }
+
+    #logo-mobile {
+        display:block;
+        margin: 40px auto 0 auto;
+        cursor: pointer;
+    }
 }
 /*header, main, footer {*/
     /*padding-left: 240px;*/
