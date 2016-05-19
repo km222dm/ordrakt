@@ -2,13 +2,17 @@ a.my-brand-logo {
     padding: 0 0 0 50px;
 }
 
+.my-nav {
+    height:120px;
+}
+
 .my-navbar {
     height:120px;
 }
 
 #logo {
-     padding: 25px 0 0 1%;
-     cursor: pointer;
+    padding: 25px 0 0 1%;
+    cursor: pointer;
     height:82%;
 }
 
@@ -18,7 +22,6 @@ a.my-brand-logo {
 
 .my-nav-wrapper {
     width:100%;
-
 }
 
 .my-hide-on-med-and-down {
@@ -37,7 +40,7 @@ a.my-brand-logo {
 #background {
     background: url(img/background.jpg) no-repeat;
     background-size:100% 100%;
-    padding:0 0 0 0;
+    height:500px;
 }
 
 #background-color-layer {
@@ -47,12 +50,29 @@ a.my-brand-logo {
 }
 
 .padding-welcome-text {
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
+}
+
+#my-contact-head-text {
+    font-size: 300%;
+    margin: 5% 0 0 0;
+}
+
+#my-contact-form {
+    margin:6% 0 0 0;
+}
+
+.gold-background {
+    background-color:#C9B16F !important;
 }
 
 @media (max-width: 560px) {
 
     .my-navbar {
+        height:80px;
+    }
+
+    .my-nav {
         height:80px;
     }
 
@@ -63,8 +83,7 @@ a.my-brand-logo {
 
     #logo-mobile {
         display:block;
-
-        cursor: pointer;
+        /*cursor: pointer;*/
     }
 
     .my-button-margin {
@@ -72,7 +91,7 @@ a.my-brand-logo {
     }
 
     .padding-welcome-text {
-        padding: 3% 0 0 0;
+        padding: 0 0 0 0;
     }
 }
 

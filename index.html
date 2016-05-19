@@ -2,35 +2,32 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <title>Ordrakt</title>
 </head>
 
 <body style="">
-<div class="navbar-fixed">
+<div class="navbar-fixed my-nav">
 <nav class="my-navbar white" role="navigation">
     <a href="#" data-activates="nav-mobile" class="button-collapse my-button-margin"><i class="material-icons black-text">menu</i></a>
     <div class="nav-wrapper container my-nav-wrapper"><a id="logo-container" href="#" class="brand-logo"></a>
-        <img src="img/ordraktloggastor5.png" id="logo" class="logo brand-logo" alt="logotyp"/>
+        <a href="index.html"><img src="img/ordraktloggastor5.png" id="logo" class="logo brand-logo" alt="logotyp"/></a>
         <!--<img src="img/ordraktloggamobil.png" id="logo-mobile"/>-->
         <ul class="right hide-on-med-and-down my-hide-on-med-and-down">
-            <li><a href="#" class="black-text my-menu-hover">Tjänster</a></li>
-            <li><a href="#" class="black-text my-menu-hover">Kunder</a></li>
-            <li><a href="#" class="black-text my-menu-hover">Om ordrakt</a></li>
-            <li><a href="#" class="black-text my-menu-hover">Kontakt</a></li>
+            <li><a href="tjanster.html" class="black-text my-menu-hover">Tjänster</a></li>
+            <li><a href="kunder.html" class="black-text my-menu-hover">Kunder</a></li>
+            <li><a href="omordrakt.html" class="black-text my-menu-hover">Om Ordrakt</a></li>
+            <li><a href="kontakt.html" class="black-text my-menu-hover">Kontakt</a></li>
         </ul>
         <ul style="transform: translateX(-100%);" id="nav-mobile" class="side-nav">
-            <li><a href="#">Tjänster</a></li>
-            <li><a href="#">Kunder</a></li>
-            <li><a href="#">Om Ordrakt</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="tjanster.html">Tjänster</a></li>
+            <li><a href="kunder.html">Kunder</a></li>
+            <li><a href="omordrakt.html">Om Ordrakt</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
 </nav>
@@ -40,14 +37,14 @@
 <div class="section no-pad-bot" id="index-banner">
 
 
-            <div class="container padding-welcome-text">
+            <div class="container">
             <br><br>
-            <h2 class="header center white-text">Behöver du hjälp med att transkribera?</h2>
+            <h2 class="header center white-text padding-welcome-text">Behöver du hjälp med att transkribera?</h2>
             <div class="row center">
                 <h5 class="header col s12 light">Ordrakt gör transkriberingen åt dig.</h5>
             </div>
         <div class="row center">
-            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light green">Kontakta oss</a>
+            <a href="kontakt.html" id="download-button" class="btn-large waves-effect waves-light green">Kontakta oss</a>
         </div>
         <br><br>
             </div>
@@ -97,11 +94,11 @@
     </div>
 </div>
 
-<footer class="page-footer orange">
+<footer class="page-footer gold-background">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
+                <h5 class="white-text">Om Företaget</h5>
                 <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
@@ -135,17 +132,20 @@
 
 
 <!--  Scripts-->
+
+<!--<script src="materialize/js/init.js"></script>-->
+
+
+
+<div class="hiddendiv common"></div><div style="left: 0px;"></div></body>
+
+
 <script
         src="https://code.jquery.com/jquery-2.2.3.js"
         integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
         crossorigin="anonymous"></script>
 
 <script src="materialize/js/materialize.js"></script>
-<!--<script src="materialize/js/init.js"></script>-->
-
-
-
-<div class="hiddendiv common"></div><div style="left: 0px;"></div></body>
 <!--<body>-->
 
 <!--<!--<div class="navbar-fixed">-->
@@ -228,5 +228,5 @@
 
 </script>
 
-<!--</body>-->
+</body>
 </html>
